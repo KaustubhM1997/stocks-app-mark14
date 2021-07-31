@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+:root {
+  --primary-color: #e5e7eb;
+  --secondary-color: #6366f1;
+  --dark-gray: #6b7280;
+}
+
+.App {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  /* margin: 0 3rem; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: var(--primary-color);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 3rem 0 1rem 0;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+.headingText {
+  margin-bottom: 5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.stocks {
+  flex: 1;
+  width: 25rem;
+  height: auto;
+  margin: 0 2rem;
+}
+
+.main {
+  flex: 1;
+  margin: 0 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 15rem;
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 15rem;
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: var(--secondary-color);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: #a5b4fc;
+}
+
+label {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+#result {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.link:hover {
+  color: var(--dark-gray);
+}
+
+footer {
+  margin-top: 2rem;
+}
