@@ -1,2 +1,2 @@
-# stocks-app-mark14
+# Calculating Stock Returns
 Created with CodeSandbox
